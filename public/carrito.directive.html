@@ -1,0 +1,8 @@
+<h2>type: {{ userCtrl.type }}</h2>
+<h2>email: {{ userCtrl.email }}</h2>
+
+<input type="text" ng-model="userCtrl.username">
+
+<button type="button" ng-click="userCtrl.change_username(userCtrl.username)">
+  change username
+</button>
